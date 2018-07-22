@@ -4644,7 +4644,7 @@ blockquote span:before {
     content: '';
     position: absolute;
     top: 0px;
-    right: 0px;
+    left: 0px;
     width: 0;
     height: 0;
     border-top: 100px solid #f5f5f5;
@@ -4654,7 +4654,7 @@ blockquote span:before {
     content: '';
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    left: 0px;
     width: 0;
     height: 0;
     border-bottom: 100px solid #f5f5f5;
@@ -4697,12 +4697,14 @@ blockquote span:before {
     font-weight: bold;
     margin: 0px;
     line-height: 1;
+    margin-left: -32%;
 }
 .sportsmagazine-classic-match-text time {
     font-size: 12px;
     color: #292c31;
     display: inline-block;
     margin: 0px 0px 31px;
+    margin-left: -42px;
 }
 .sportsmagazine-classic-match-text > span {
     font-size: 24px;
@@ -4713,11 +4715,12 @@ blockquote span:before {
     padding: 8px 29px;
     margin: 0px 0px 14px;
     position: relative;
+    left: -22px;
 }
 .sportsmagazine-classic-match-text > span:before {
     content: '';
     position: absolute;
-    right: -9px;
+    left: -9px;
     top: 0px;
     width: 0;
     height: 0;
@@ -4733,16 +4736,17 @@ blockquote span:before {
     width: 0;
     height: 0;
     border-top: 26px solid transparent;
-    border-right: 10px solid #292c31;
+    border-left: 10px solid #292c31;
     border-bottom: 26px solid transparent;
 }
 .sportsmagazine-classic-match-text h6 {
     font-size: 14px;
     margin: 0px 0px 4px;
     font-weight: bold;
+    margin-left: -42px;
 }
 .sportsmagazine-classic-team-two {
-    float: right;
+    float: left;
     background-color: #292c31;
     text-align: center;
     padding: 70px 16px 69px 16px;
@@ -4756,7 +4760,7 @@ blockquote span:before {
     width: 0;
     height: 0;
     border-top: 100px solid #f5f5f5;
-    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
 }
 .sportsmagazine-classic-team-two:after {
     content: '';
@@ -4766,7 +4770,7 @@ blockquote span:before {
     width: 0;
     height: 0;
     border-bottom: 100px solid #f5f5f5;
-    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
 }
 .sportsmagazine-classic-team-two figure {
     display: inline-block;
@@ -7545,7 +7549,7 @@ blockquote span:before {
 .sportsmagazine-testimonial-text:before {
     content: '';
     position: absolute;
-    right: 0px;
+    left: 0px;
     bottom: 0px;
     width: 57px;
     height: 1px;
@@ -7583,7 +7587,7 @@ blockquote span:before {
 .sportsmagazine-testimonial-text span:before {
     content: '';
     position: absolute;
-    right: 61px;
+    left: 61px;
     bottom: -34px;
     height: 35px;
     width: 1px;
@@ -7594,12 +7598,12 @@ blockquote span:before {
     bottom: -44px;
     content: "";
     height: 54px;
-    right: 86px;
+    left: 86px;
     position: absolute;
     width: 1px;
 }
 .sportsmagazine-testimonial-info figure {
-    float: right;
+    float: left;
     width: 90px;
     margin: 0px;
 }
@@ -7615,6 +7619,10 @@ blockquote span:before {
 .sportsmagazine-testimonial-info section h5 {
     margin: 0px 0px 3px;
     font-weight: bold;
+    text-align: left;
+}
+.sportsmagazine-testimonial-info section span {
+    text-align: left;
 }
 /*Testimonial*/
 /*Fancy Title*/
