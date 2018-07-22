@@ -3797,7 +3797,7 @@ blockquote span:before {
 .sportsmagazine-accordion .panel-heading .panel-title:before {
     content: '';
     position: absolute;
-    right: 0px;
+    left: 0px;
     bottom: -5px;
     height: 13px;
     width: 51%;
@@ -3832,8 +3832,9 @@ blockquote span:before {
     content: "\f29c";
     font-family: FontAwesome;
     font-weight: normal;
-    right: 31px;
+    left: 31px;
     position: absolute;
+    transform: rotateY(180deg);
 }
 .sportsmagazine-accordion .panel-default {
     border-radius: 0px;
@@ -3857,7 +3858,7 @@ blockquote span:before {
 .sportsmagazine-accordion .panel-default:before {
     content: '';
     position: absolute;
-    right: 0px;
+    left: 0px;
     bottom: -36px;
     height: 43px;
     width: 51%;
@@ -6956,7 +6957,7 @@ blockquote span:before {
     background-color: #0c4107;
     color: #ffffff;
     font-size: 22px;
-    padding: 14px 0px 13px 29px;
+    padding: 14px 25px 13px 29px;
     font-weight: bold;
 }
 .sportsmagazine-match-fixture .sportsmagazine-client-detail { background-color: transparent; margin: 0px;}
@@ -7623,6 +7624,9 @@ blockquote span:before {
 }
 .sportsmagazine-testimonial-info section span {
     text-align: left;
+    position: absolute;
+    top: 92%;
+    left: 31%;
 }
 /*Testimonial*/
 /*Fancy Title*/
@@ -7700,12 +7704,12 @@ blockquote span:before {
     width: 50%;
 }
 .sportsmagazine-banner-two-wrap {
-    float: right;
+    float: left;
     width: 50%;
     padding: 0px 15px;
 }
 .sportsmagazine-banner-text {
-    float: right;
+    float: left;
     width: 100%;
     background: #0c4107;
     text-align: center;
@@ -7715,7 +7719,7 @@ blockquote span:before {
 .sportsmagazine-banner-text:before {
     content: '';
     position: absolute;
-    right: 0px;
+    left: 0px;
     bottom: -24px;
     width: 50%;
     height: 30px;
@@ -7748,13 +7752,13 @@ blockquote span:before {
     font-weight: bold;
 }
 .sportsmagazine-banner-upcoming-match {
-    float: right;
+    float: left;
     width: 100%;
     background-color: #ffdc11;
     margin: 0px 0px 30px;
 }
 .sportsmagazine-banner-team-one {
-    float: right;
+    float: left;
     background-color: #83a803;
     padding: 40px 7px 38px 49px;
     position: relative;
@@ -7767,7 +7771,7 @@ blockquote span:before {
     width: 0;
     height: 0;
     border-top: 65px solid transparent;
-    border-right: 40px solid #0c4107;
+    border-left: 40px solid #0c4107;
     border-bottom: 65px solid transparent;
 }
 .sportsmagazine-banner-team-one figure {
@@ -7787,11 +7791,12 @@ blockquote span:before {
 }
 .sportsmagazine-banner-team-one section h4 a { color: #ffffff;}
 .sportsmagazine-banner-upcoming-match span {
-    float: right;
+    float: left;
     font-size: 24px;
     color: #27282a;
     font-weight: bold;
     padding: 48px 30px 0px 45px;
+    /*margin-left: 8%;*/
 }
 .sportsmagazine-banner-team-two {
     float: right;
@@ -7800,19 +7805,19 @@ blockquote span:before {
 .sportsmagazine-banner-team-one.sportsmagazine-banner-team-two:before {
     content: '';
     position: absolute;
-    right: -40px;
+    right: 219px;
     top: 0px;
     width: 0;
     height: 0;
     border-top: 65px solid transparent;
     border-right: 40px solid #0c4107;
-    border-right: none;
+    border-left: none;
     border-bottom: 65px solid transparent;
 }
-.sportsmagazine-banner-team-two figure { float: right;}
+.sportsmagazine-banner-team-two figure { float: left;}
 .sportsmagazine-banner-team-two figure ~ section {
     margin: 0px 0px 0px 69px;
-    text-align: right;
+    text-align: left;
 }
 /*Slick Slider*/
 .sportsmagazine-banner-two .slick-dots li button {
@@ -7832,7 +7837,6 @@ blockquote span:before {
 .sportsmagazine-banner-two .slick-dots li {
     margin: 0px 14px;
 }
-/*Banner Countdown*/
 .sportsmagazine-banner-countdown,.sportsmagazine-banner-countdown .countdown-row {
     float: right;
     width: 100%;
