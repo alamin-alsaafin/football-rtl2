@@ -2,7 +2,19 @@ body
 {
     font-family: tahoma !important;
 }
-
+.side-ad img
+{
+    position: absolute;
+    z-index: 99;
+    top: 97%;
+    width: 8%;
+    height: 94% !important;
+    transition: 0.3s;
+}
+.side-ad img:hover
+{
+    width: 12%;
+}
 /*New Edits in top header*/
 .sportsmagazine-topstrip-two span:before
 {
@@ -64,6 +76,10 @@ body
 }
 @media (max-width: 1199px)
 {
+    .side-ad
+    {
+        display: none;
+    }
     .select-lang
     {
         left: 72%;
@@ -71,6 +87,10 @@ body
 }
 @media (max-width: 991px)
 {
+    .side-ad
+    {
+        display: none;
+    }
     .top-ad .make-ad
     {
         top: 166px;
@@ -84,6 +104,10 @@ body
 }
 @media (max-width: 767px)
 {
+    .side-ad
+    {
+        display: none;
+    }
     .select-lang
     {
         right: 2%;
@@ -730,7 +754,7 @@ body
     z-index: 9999999 !important;
         display: none !important;
     width: 13% !important;
-    right: 6% !important;
+    left: 6% !important;
     padding-top: 1% !important;
     /*padding-left: 1% !important;*/
     padding-bottom: 1%;
@@ -741,8 +765,10 @@ body
 {
     transition: 0.3s !important;
     display: block !important;
-    text-align: left !important;
+    text-align: right; !important;
     width: 100%;
+    margin-top: -32px;
+    margin-right: 34px;
 }
 .profile-ul li:hover 
 {
